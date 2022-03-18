@@ -12,6 +12,7 @@ public class Facts {
         System.out.println(("&& :" +(true && false)));
         System.out.println("&&:" + ((a>b) && (a!=b)));
         System.out.println("&&:" + ((a==b) || (a!=b)));
+        System.out.println("&&:" + ((a<b) || (a!=b)));
 
         //assignment  operators
         a +=b;
